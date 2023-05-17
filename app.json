@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "QuotesApp",
-    "slug": "QuotesApp",
+    "slug": "test-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.retardedjs.testapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb097c4b-60de-4fd0-a489-5791b811a16d"
+      }
+    },
+    "owner": "retardedjs"
   }
 }
